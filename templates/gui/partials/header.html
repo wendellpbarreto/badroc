@@ -1,0 +1,69 @@
+<nav id="header" class="row top-bar" data-topbar>
+    <div class="logo small-10 small-centered medium-4 medium-uncentered columns">
+        <a href="{{ BASE_URL }}/home/">
+            <img src="{{ STATIC_URL }}images/logo.png" alt="rochas"/>
+        </a>
+    </div>
+    <section class="navbar top-bar-section medium-16 columns">
+        <ul class="no-bullet">
+            <li class="{% if "/about" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/about">SOBRE</a></li>
+            <li class="has-dropdown{% if "/disciplines" in request.path %} active {% endif %}">
+                <a href="#">DISCIPLINAS</a>
+                <ul class="dropdown">
+                    {% for discipline in disciplines %}
+                        <li class="{% if discipline.curricular_practices.all %}has-dropdown{% endif %}">
+                            <a href="{{ BASE_URL }}/posts/?discipline={{ discipline.pk }}">{{ discipline.name }}</a>
+                            <ul class="dropdown">
+                            {% for curricular_practice in discipline.curricular_practices.all %}
+                                <li><a href="{{ BASE_URL }}/posts/?discipline={{ discipline.pk }}&curricular_practice={{ curricular_practice.pk }}">{{ curricular_practice.name }}</a></li>
+                            {% endfor %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+            <li class="{% if "/events" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/events">EVENTOS</a></li>
+            <li class="{% if "/video_libraries" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/video_libraries">VÍDEOS</a></li>
+            <li class="{% if "/photogalleries" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/photogalleries">FOTOGALERIAS</a></li>
+            <li class="{% if "/notices" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/notices">NOTÍCIAS</a></li>
+            <li class="{% if "/home" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/home">INÍCIO</a></li>
+        </ul>
+    </section>
+</nav>
+
+<div id="header-fixed" class="animated">
+    <div class="row show-for-medium-up">
+        <div class="top-bar" data-topbar>
+            <div class="logo medium-2 columns">
+                <a href="{{ BASE_URL }}/home/">
+                    <img src="{{ STATIC_URL }}images/logo.png" alt="rochas"/>
+                </a>
+            </div>
+            <section class="navbar top-bar-section medium-18 columns">
+                <ul class="no-bullet">
+                    <li class="{% if "/about" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/about">SOBRE</a></li>
+                    <li class="has-dropdown{% if "/disciplines" in request.path %} active {% endif %}">
+                        <a href="#">DISCIPLINAS</a>
+                        <ul class="dropdown">
+                            {% for discipline in disciplines %}
+                                <li class="{% if discipline.curricular_practices.all %}has-dropdown{% endif %}">
+                                    <a href="{{ BASE_URL }}/posts/?discipline={{ discipline.pk }}">{{ discipline.name }}</a>
+                                    <ul class="dropdown">
+                                    {% for curricular_practice in discipline.curricular_practices.all %}
+                                        <li><a href="{{ BASE_URL }}/posts/?discipline={{ discipline.pk }}&curricular_practice={{ curricular_practice.pk }}">{{ curricular_practice.name }}</a></li>
+                                    {% endfor %}
+                                    </ul>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li class="{% if "/events" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/events">EVENTOS</a></li>
+                    <li class="{% if "/video_libraries" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/video_libraries">VÍDEOS</a></li>
+                    <li class="{% if "/photogalleries" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/photogalleries">FOTOGALERIAS</a></li>
+                    <li class="{% if "/notices" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/notices">NOTÍCIAS</a></li>
+                    <li class="{% if "/home" in request.path %} active {% endif %}"><a href="{{ BASE_URL }}/home">INÍCIO</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>

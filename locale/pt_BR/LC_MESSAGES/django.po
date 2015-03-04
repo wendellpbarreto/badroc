@@ -1,0 +1,838 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-04 13:01-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: system/core/admin.py:30 system/core/admin.py:62 system/core/admin.py:95
+msgid "Informations"
+msgstr "Informações"
+
+#: system/core/admin.py:40 system/core/admin.py:73 system/core/admin.py:104
+msgid "Datation"
+msgstr ""
+
+#: system/core/models.py:19 system/core/models.py:30 system/core/models.py:41
+#: system/core/models.py:52 system/core/models.py:63 system/core/models.py:74
+#: system/core/models.py:85 system/core/models.py:96 system/core/models.py:107
+#: system/core/models.py:118 system/core/models.py:129
+#: system/core/models.py:140 system/core/models.py:151
+#: system/core/models.py:162 system/core/models.py:173
+#: system/core/models.py:186
+msgid "Name"
+msgstr "Nome"
+
+#: system/core/models.py:19
+msgid "Composition name"
+msgstr ""
+
+#: system/core/models.py:20 system/core/models.py:31 system/core/models.py:42
+#: system/core/models.py:53 system/core/models.py:64 system/core/models.py:75
+#: system/core/models.py:86 system/core/models.py:97 system/core/models.py:108
+#: system/core/models.py:119 system/core/models.py:130
+#: system/core/models.py:141 system/core/models.py:152
+#: system/core/models.py:163 system/core/models.py:187
+msgid "Description"
+msgstr "Descrição"
+
+#: system/core/models.py:20
+msgid "Composition description"
+msgstr ""
+
+#: system/core/models.py:23 system/core/models.py:225
+msgid "Igneous Rock Composition"
+msgstr ""
+
+#: system/core/models.py:24
+msgid "Igneous Rock Compositions"
+msgstr ""
+
+#: system/core/models.py:30
+#, fuzzy
+#| msgid "Editorial name"
+msgid "Mineralogy name"
+msgstr "Nome da editoria"
+
+#: system/core/models.py:31
+#, fuzzy
+#| msgid "Description"
+msgid "Mineralogy description"
+msgstr "Descrição"
+
+#: system/core/models.py:34
+msgid "Igneous Rock Mineralogy"
+msgstr ""
+
+#: system/core/models.py:35 system/core/models.py:226
+msgid "Igneous Rock Mineralogies"
+msgstr ""
+
+#: system/core/models.py:41
+#, fuzzy
+msgid "Color name"
+msgstr "Nome da editoria"
+
+#: system/core/models.py:42
+#, fuzzy
+#| msgid "Description"
+msgid "Color description"
+msgstr "Descrição"
+
+#: system/core/models.py:45 system/core/models.py:227
+msgid "Igneous Rock Color"
+msgstr ""
+
+#: system/core/models.py:46
+msgid "Igneous Rock Colors"
+msgstr ""
+
+#: system/core/models.py:52 system/core/models.py:85
+#, fuzzy
+#| msgid "Discipline name"
+msgid "Origin name"
+msgstr "Nome da disciplina"
+
+#: system/core/models.py:53 system/core/models.py:86
+#, fuzzy
+#| msgid "Description"
+msgid "Origin description"
+msgstr "Descrição"
+
+#: system/core/models.py:56 system/core/models.py:228
+msgid "Igneous Rock Origin"
+msgstr ""
+
+#: system/core/models.py:57
+msgid "Igneous Rock Origins"
+msgstr ""
+
+#: system/core/models.py:63
+#, fuzzy
+#| msgid "Member name"
+msgid "Texture name"
+msgstr "Nome do membro"
+
+#: system/core/models.py:64
+#, fuzzy
+#| msgid "Description"
+msgid "Texture description"
+msgstr "Descrição"
+
+#: system/core/models.py:67 system/core/models.py:229
+msgid "Igneous Rock Texture"
+msgstr ""
+
+#: system/core/models.py:68
+msgid "Igneous Rock Textures"
+msgstr ""
+
+#: system/core/models.py:74 system/core/models.py:129
+#: system/core/models.py:151
+msgid "Structure name"
+msgstr ""
+
+#: system/core/models.py:75 system/core/models.py:130
+#: system/core/models.py:152
+#, fuzzy
+#| msgid "Description"
+msgid "Structure description"
+msgstr "Descrição"
+
+#: system/core/models.py:78 system/core/models.py:230
+msgid "Igneous Rock Structure"
+msgstr ""
+
+#: system/core/models.py:79
+msgid "Igneous Rock Structures"
+msgstr ""
+
+#: system/core/models.py:89 system/core/models.py:240
+msgid "Sedimentary Rock Origin"
+msgstr ""
+
+#: system/core/models.py:90
+msgid "Sedimentary Rock Origins"
+msgstr ""
+
+#: system/core/models.py:96
+msgid "Granularity name"
+msgstr ""
+
+#: system/core/models.py:97
+msgid "Granularity description"
+msgstr ""
+
+#: system/core/models.py:100 system/core/models.py:241
+msgid "Sedimentary Rock Granularity"
+msgstr ""
+
+#: system/core/models.py:101
+msgid "Sedimentary Rock Granularities"
+msgstr ""
+
+#: system/core/models.py:107
+msgid "Fraction name"
+msgstr ""
+
+#: system/core/models.py:108
+#, fuzzy
+#| msgid "Description"
+msgid "Fraction description"
+msgstr "Descrição"
+
+#: system/core/models.py:111 system/core/models.py:242
+msgid "Sedimentary Rock Fraction"
+msgstr ""
+
+#: system/core/models.py:112
+msgid "Sedimentary Rock Fractions"
+msgstr ""
+
+#: system/core/models.py:118
+msgid "Constitution name"
+msgstr ""
+
+#: system/core/models.py:119
+msgid "Constitution description"
+msgstr ""
+
+#: system/core/models.py:122 system/core/models.py:243
+msgid "Sedimentary Rock Constitution"
+msgstr ""
+
+#: system/core/models.py:123
+msgid "Sedimentary Rock Constitutions"
+msgstr ""
+
+#: system/core/models.py:133 system/core/models.py:244
+msgid "Sedimentary Rock Structure"
+msgstr ""
+
+#: system/core/models.py:134
+msgid "Sedimentary Rock Structures"
+msgstr ""
+
+#: system/core/models.py:140
+#, fuzzy
+#| msgid "Informations"
+msgid "Formation name"
+msgstr "Informações"
+
+#: system/core/models.py:141
+#, fuzzy
+#| msgid "Description"
+msgid "Formation description"
+msgstr "Descrição"
+
+#: system/core/models.py:144 system/core/models.py:245
+msgid "Sedimentary Rock Formation"
+msgstr ""
+
+#: system/core/models.py:145
+msgid "Sedimentary Rock Formations"
+msgstr ""
+
+#: system/core/models.py:155 system/core/models.py:255
+msgid "Metamorphic Rock Structure"
+msgstr ""
+
+#: system/core/models.py:156
+msgid "Metamorphic Rock Structures"
+msgstr ""
+
+#: system/core/models.py:162
+#, fuzzy
+#| msgid "Member name"
+msgid "Mineral name"
+msgstr "Nome do membro"
+
+#: system/core/models.py:163
+#, fuzzy
+#| msgid "Description"
+msgid "Mineral description"
+msgstr "Descrição"
+
+#: system/core/models.py:166
+msgid "Metamorphic Rock Mineral"
+msgstr ""
+
+#: system/core/models.py:167 system/core/models.py:256
+msgid "Metamorphic Rock Minerals"
+msgstr ""
+
+#: system/core/models.py:173
+#, fuzzy
+#| msgid "Member name"
+msgid "Person name"
+msgstr "Nome do membro"
+
+#: system/core/models.py:174
+msgid "About"
+msgstr "Sobre"
+
+#: system/core/models.py:174
+#, fuzzy
+#| msgid "Member about"
+msgid "Person about"
+msgstr "Sobre do membro"
+
+#: system/core/models.py:175
+msgid "Email"
+msgstr "Email"
+
+#: system/core/models.py:175
+#, fuzzy
+#| msgid "Member email"
+msgid "Person email"
+msgstr "Email do membro"
+
+#: system/core/models.py:176
+msgid "Phone"
+msgstr "Telefone"
+
+#: system/core/models.py:176
+#, fuzzy
+#| msgid "Member phone"
+msgid "Person phone"
+msgstr "Telefone do membro"
+
+#: system/core/models.py:179
+msgid "Person"
+msgstr ""
+
+#: system/core/models.py:180
+msgid "Persons"
+msgstr ""
+
+#: system/core/models.py:186
+#, fuzzy
+msgid "Rock name"
+msgstr "Nome da editoria"
+
+#: system/core/models.py:188
+msgid "Author"
+msgstr ""
+
+#: system/core/models.py:189
+msgid "Date"
+msgstr "Data"
+
+#: system/core/models.py:192
+msgid "Rock"
+msgstr ""
+
+#: system/core/models.py:193 system/dashboard.py:22
+msgid "Rocks"
+msgstr ""
+
+#: system/core/models.py:206
+msgid "Title"
+msgstr "Título"
+
+#: system/core/models.py:206
+#, fuzzy
+msgid "Photo title"
+msgstr "Data da fotogaleria"
+
+#: system/core/models.py:207 system/core/models.py:211
+msgid "Photo"
+msgstr "Foto"
+
+#: system/core/models.py:208
+#, fuzzy
+#| msgid "Photogallery"
+msgid "Photographer"
+msgstr "Fotogaleria"
+
+#: system/core/models.py:208
+msgid "Rock photographer"
+msgstr ""
+
+#: system/core/models.py:212
+msgid "Photos"
+msgstr "Fotos"
+
+#: system/core/models.py:221
+msgid "Current photo"
+msgstr "Foto atual"
+
+#: system/core/models.py:225
+msgid "Composition"
+msgstr ""
+
+#: system/core/models.py:226
+msgid "Mineralogies"
+msgstr ""
+
+#: system/core/models.py:227
+msgid "Color"
+msgstr ""
+
+#: system/core/models.py:228 system/core/models.py:240
+msgid "Origin"
+msgstr ""
+
+#: system/core/models.py:229
+#, fuzzy
+#| msgid "Featured"
+msgid "Texture"
+msgstr "Destaque"
+
+#: system/core/models.py:230 system/core/models.py:244
+#: system/core/models.py:255
+msgid "Structure"
+msgstr ""
+
+#: system/core/models.py:233
+msgid "Igneous Rock"
+msgstr ""
+
+#: system/core/models.py:234 system/dashboard.py:48
+msgid "Igneous Rocks"
+msgstr ""
+
+#: system/core/models.py:241
+msgid "Granularity"
+msgstr ""
+
+#: system/core/models.py:242
+#, fuzzy
+#| msgid "Informations"
+msgid "Fraction"
+msgstr "Informações"
+
+#: system/core/models.py:243
+msgid "Constitution"
+msgstr ""
+
+#: system/core/models.py:245
+#, fuzzy
+#| msgid "Informations"
+msgid "Formation"
+msgstr "Informações"
+
+#: system/core/models.py:248
+msgid "Sedimentary Rock"
+msgstr ""
+
+#: system/core/models.py:249 system/dashboard.py:70
+msgid "Sedimentary Rocks"
+msgstr ""
+
+#: system/core/models.py:256
+msgid "Minerals"
+msgstr ""
+
+#: system/core/models.py:259
+msgid "Metamorphic Rock"
+msgstr ""
+
+#: system/core/models.py:260 system/dashboard.py:61
+msgid "Metamorphic Rocks"
+msgstr ""
+
+#: system/dashboard.py:35
+msgid "Administration"
+msgstr "Administração"
+
+#: system/dashboard.py:40
+msgid "General configurations"
+msgstr "Configurações gerais"
+
+#: system/dashboard.py:86
+msgid "Pages"
+msgstr "Páginas"
+
+#: system/dashboard.py:90
+msgid "rochas GUI"
+msgstr ""
+
+#: system/dashboard.py:108
+msgid "Recent Actions"
+msgstr "Ações recentes"
+
+#, fuzzy
+#~ msgid "Publications"
+#~ msgstr "Aplicações"
+
+#~ msgid "Publication configurations"
+#~ msgstr "Configurações de publicação"
+
+#~ msgid "Users"
+#~ msgstr "Usuários"
+
+#~ msgid "Statistics"
+#~ msgstr "Estatísticas"
+
+#~ msgid "Medias"
+#~ msgstr "Mídias"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Social network type"
+#~ msgstr "Tipo da rede social"
+
+#, fuzzy
+#~ msgid "Social network url"
+#~ msgstr "URL da rede social"
+
+#~ msgid "Social network"
+#~ msgstr "Rede social"
+
+#~ msgid "Social networks"
+#~ msgstr "Redes sociais"
+
+#~ msgid "Contact type"
+#~ msgstr "Tipo do contato"
+
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgid "Contact value"
+#~ msgstr "Valor do contato"
+
+#~ msgid "Contact"
+#~ msgstr "Contato"
+
+#~ msgid "Contacts"
+#~ msgstr "Contatos"
+
+#~ msgid "Street"
+#~ msgstr "Rua"
+
+#~ msgid "Address street"
+#~ msgstr "Rua do endereço"
+
+#~ msgid "Number"
+#~ msgstr "Número"
+
+#~ msgid "Address number"
+#~ msgstr "Número do endereço"
+
+#~ msgid "Complement"
+#~ msgstr "Complemento"
+
+#~ msgid "Address complement"
+#~ msgstr "Complemento do endereço"
+
+#~ msgid "District"
+#~ msgstr "Bairro"
+
+#~ msgid "Address district"
+#~ msgstr "Bairro do endereço"
+
+#~ msgid "Zip code"
+#~ msgstr "CEP"
+
+#~ msgid "Address zip code"
+#~ msgstr "CEP do endereço"
+
+#~ msgid "City"
+#~ msgstr "Cidade"
+
+#~ msgid "Address city"
+#~ msgstr "Cidade do endereço"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Address state"
+#~ msgstr "Estado do endereço"
+
+#~ msgid "Address"
+#~ msgstr "Endereço"
+
+#~ msgid "Addresses"
+#~ msgstr "Endereços"
+
+#~ msgid "Body"
+#~ msgstr "Corpo"
+
+#, fuzzy
+#~ msgid "About body"
+#~ msgstr "Corpo do podcast"
+
+#~ msgid "Abouts"
+#~ msgstr "Sobres"
+
+#~ msgid "Role"
+#~ msgstr "Cargo"
+
+#~ msgid "Roles"
+#~ msgstr "Cargos"
+
+#~ msgid "Member role"
+#~ msgstr "Cargo do membro"
+
+#, fuzzy
+#~ msgid "Member photo"
+#~ msgstr "Telefone do membro"
+
+#~ msgid "Member"
+#~ msgstr "Membro"
+
+#~ msgid "Members"
+#~ msgstr "Membros"
+
+#~ msgid "Discipline"
+#~ msgstr "Disciplina"
+
+#~ msgid "Disciplines"
+#~ msgstr "Disciplinas"
+
+#~ msgid "Curricular practice name"
+#~ msgstr "Nome da prática curricular"
+
+#~ msgid "Curricular practice discipline"
+#~ msgstr "Disciplina da prática curricular"
+
+#~ msgid "Curricular practice"
+#~ msgstr "Prática curricular"
+
+#~ msgid "Curricular practices"
+#~ msgstr "Prática curriculares"
+
+#~ msgid "Editorial"
+#~ msgstr "Editoria"
+
+#~ msgid "Editorials"
+#~ msgstr "Editorias"
+
+#~ msgid "Active"
+#~ msgstr "Ativo"
+
+#, fuzzy
+#~ msgid "Notice is active?"
+#~ msgstr "Esta notícia está ativa?"
+
+#, fuzzy
+#~ msgid "Notice is in featured session?"
+#~ msgstr "Esta notícia está na sessão de destaque?"
+
+#, fuzzy
+#~ msgid "Notice date"
+#~ msgstr "Data da notícia"
+
+#~ msgid "Last modified"
+#~ msgstr "Última modificação"
+
+#, fuzzy
+#~ msgid "Notice title"
+#~ msgstr "Título da notícia"
+
+#~ msgid "Subtitle"
+#~ msgstr "Subtítulo"
+
+#, fuzzy
+#~ msgid "Notice subtitle"
+#~ msgstr "Subtítulo da notícia"
+
+#, fuzzy
+#~ msgid "Notice body"
+#~ msgstr "Corpo da notícia"
+
+#, fuzzy
+#~ msgid "Notice editorial"
+#~ msgstr "Editoria da notícia"
+
+#, fuzzy
+#~ msgid "Notice discipline"
+#~ msgstr "Disciplina"
+
+#, fuzzy
+#~ msgid "Notice curricular practice"
+#~ msgstr "Prática curricular"
+
+#, fuzzy
+#~ msgid "Notice photo"
+#~ msgstr "Foto da notícia"
+
+#~ msgid "Notice"
+#~ msgstr "Notícia"
+
+#~ msgid "Notices"
+#~ msgstr "Notícias"
+
+#, fuzzy
+#~ msgid "Photogallery editorial"
+#~ msgstr "Data da fotogaleria"
+
+#, fuzzy
+#~ msgid "Photogallery discipline"
+#~ msgstr "Esta fotogaleria está ativa?"
+
+#, fuzzy
+#~ msgid "Photogallery curricular practice"
+#~ msgstr "Esta fotogaleria está ativa?"
+
+#~ msgid "Photogalleries"
+#~ msgstr "Fotogalerias"
+
+#~ msgid "Credits"
+#~ msgstr "Créditos"
+
+#, fuzzy
+#~ msgid "Photo credits"
+#~ msgstr "Fotos"
+
+#, fuzzy
+#~ msgid "Video library editorial"
+#~ msgstr "Título da videoteca"
+
+#, fuzzy
+#~ msgid "Video library discipline"
+#~ msgstr "Esta videoteca está ativa?"
+
+#, fuzzy
+#~ msgid "Video library curricular practice"
+#~ msgstr "Esta videoteca está ativa?"
+
+#~ msgid "Video library"
+#~ msgstr "Videoteca"
+
+#~ msgid "Video libraries"
+#~ msgstr "Videotecas"
+
+#~ msgid "Video"
+#~ msgstr "Vídeo"
+
+#~ msgid "Youtube code"
+#~ msgstr "Código do Youtube"
+
+#, fuzzy
+#~ msgid "Vimeo code"
+#~ msgstr "Código do Vimeo"
+
+#~ msgid "Videos"
+#~ msgstr "Vídeos"
+
+#~ msgid "Podcast download url"
+#~ msgstr "Download url do podcast"
+
+#, fuzzy
+#~ msgid "Event notices"
+#~ msgstr "Notícias do evento"
+
+#~ msgid "Event photogalleries"
+#~ msgstr "Fotogalerias do evento"
+
+#~ msgid "Event video libraries"
+#~ msgstr "Galerias de vídeos do evento"
+
+#~ msgid "Event podcasts"
+#~ msgstr "Podcasts do evento"
+
+#~ msgid "Event"
+#~ msgstr "Evento"
+
+#~ msgid "Events"
+#~ msgstr "Eventos"
+
+#~ msgid "rochas front-end"
+#~ msgstr "Front-end da agência"
+
+#, fuzzy
+#~ msgid "About title"
+#~ msgstr "Título do podcast"
+
+#, fuzzy
+#~ msgid "About subtitle"
+#~ msgstr "Subtítulo do podcast"
+
+#, fuzzy
+#~ msgid "Pretitle"
+#~ msgstr "Pré-titulo"
+
+#, fuzzy
+#~ msgid "New pretitle"
+#~ msgstr "Pré-título da notícia"
+
+#~ msgid "New"
+#~ msgstr "Notícia"
+
+#~ msgid "News"
+#~ msgstr "Notícias"
+
+#~ msgid "Photogallery is active?"
+#~ msgstr "Esta fotogaleria está ativa?"
+
+#~ msgid "Photogallery date"
+#~ msgstr "Data da fotogaleria"
+
+#~ msgid "Photogallery subtitle"
+#~ msgstr "Subtítulo da fotogaleria"
+
+#~ msgid "Photogallery body"
+#~ msgstr "Corpo da fotogaleria"
+
+#~ msgid "Video library is active?"
+#~ msgstr "Esta videoteca está ativa?"
+
+#~ msgid "Video library date"
+#~ msgstr "Data da videoteca"
+
+#~ msgid "Video library title"
+#~ msgstr "Título da videoteca"
+
+#~ msgid "Video library subtitle"
+#~ msgstr "Subtítulo da videoteca"
+
+#~ msgid "Video library body"
+#~ msgstr "Corpo da videoteca"
+
+#~ msgid "Podcast is active?"
+#~ msgstr "Este podcast está ativo?"
+
+#~ msgid "Podcast date"
+#~ msgstr "Data do podcast"
+
+#~ msgid "Podcast title"
+#~ msgstr "Título do podcast"
+
+#~ msgid "Podcast subtitle"
+#~ msgstr "Subtítulo do podcast"
+
+#~ msgid "Podcast body"
+#~ msgstr "Corpo do podcast"
+
+#~ msgid "Event is active?"
+#~ msgstr "Este evento está ativo?"
+
+#~ msgid "Event date"
+#~ msgstr "Data do evento"
+
+#~ msgid "Event title"
+#~ msgstr "Título do evento"
+
+#~ msgid "Event subtitle"
+#~ msgstr "Subtítulo do evento"
+
+#~ msgid "Event body"
+#~ msgstr "Corpo do evento"
+
+#~ msgid "Photogallery is in featured session?"
+#~ msgstr "Esta fotogaleria está na sessão de destaque?"
+
+#~ msgid "Video library is in featured session?"
+#~ msgstr "Esta videoteca está na sessnao de destaque?"
+
+#~ msgid "Event is in featured session?"
+#~ msgstr "Este evento está na sessão de destaque?"
+
+#~ msgid "Social network value"
+#~ msgstr "Valor da rede social"
