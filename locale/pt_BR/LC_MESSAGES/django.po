@@ -459,7 +459,7 @@ msgstr "Páginas"
 
 #: system/dashboard.py:90
 msgid "rochas GUI"
-msgstr "Página Inicial"
+msgstr "GUI"
 
 #: system/dashboard.py:108
 msgid "Recent Actions"
