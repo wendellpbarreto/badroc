@@ -372,7 +372,7 @@ msgstr "Foto atual"
 
 #: system/core/models.py:225
 msgid "Composition"
-msgstr "Composições"
+msgstr "Composição"
 
 #: system/core/models.py:226
 msgid "Mineralogies"
@@ -459,7 +459,7 @@ msgstr "Páginas"
 
 #: system/dashboard.py:90
 msgid "rochas GUI"
-msgstr "GUI"
+msgstr "Página Inicial"
 
 #: system/dashboard.py:108
 msgid "Recent Actions"
