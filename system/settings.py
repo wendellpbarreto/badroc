@@ -166,7 +166,7 @@ MEDIA_VIDEO_LIBRARY_ROOT = 'video_library'
 
 # Admin tittle
 
-GRAPPELLI_ADMIN_TITLE = u'badroc - Gerenciador de Rochas Petrolíferas'
+GRAPPELLI_ADMIN_TITLE = u'BADROC - Banco de Dados de Rochas Petrolíferas'
 
 
 # Dashboard
