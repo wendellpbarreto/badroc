@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NAME="rochas"                                 		# Name of the application
-DJANGODIR=/var/www/rochas/             				# Django project directory
-SOCKFILE=/var/www/rochas/run/gunicorn.sock  			# we will communicte using this unix socket
+NAME="badroc"                                 		# Name of the application
+DJANGODIR=/var/www/badroc/             				# Django project directory
+SOCKFILE=/var/www/badroc/run/gunicorn.sock  			# we will communicte using this unix socket
 USER=wendell                                      	  	# the user to run as
 GROUP=wendell                                    		# the group to run as
 NUM_WORKERS=3                                 		# how many worker processes should Gunicorn spawn
@@ -12,7 +12,7 @@ DJANGO_WSGI_MODULE=system.wsgi                		# WSGI module name
 
 # Activate the virtual environment
 cd $DJANGODIR
-. /home/wendell/.virtualenvs/rochas/bin/activate
+. /home/wendell/.virtualenvs/badroc/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHONPATH=$DJANGODIR:$PYTHONPATH
 
@@ -22,7 +22,7 @@ test -d $RUNDIR || mkdir -p $RUNDIR
 
 # Start your django gunicorn
 # Programs meant to be run under supervisor should not daemonize themselves
-exec /home/wendell/.virtualenvs/rochas/bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
+exec /home/wendell/.virtualenvs/badroc/bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
   --name $NAME \
   --workers $NUM_WORKERS \
   --user=$USER --group=$GROUP \
