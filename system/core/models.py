@@ -184,7 +184,7 @@ class Person(models.Model):
 
 class Rock(models.Model):
     name = models.CharField(_("Name"), max_length=256, help_text=_("Rock name"))
-    description = models.TextField(_("Description"), max_length=10240, help_text=_("Description"))
+    description = models.TextField(_("Description"), max_length=1024, blank=True, help_text=_("Description"))
     author = models.ForeignKey(Person, verbose_name=_("Author"), help_text=_("Author"))
     date = models.DateField(_("Date"), help_text=_("Date"))
 
