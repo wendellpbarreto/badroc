@@ -403,7 +403,7 @@ msgstr "Rocha Ígnea"
 
 #: system/core/models.py:234 system/dashboard.py:48
 msgid "Igneous Rocks"
-msgstr "Rocha Ígnea"
+msgstr "Rochas Ígnea"
 
 #: system/core/models.py:241
 msgid "Granularity"
