@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Django settings for geroc project.
+Django settings for badroc project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -18,8 +18,8 @@ SECRET_KEY = 'a((7j^9kmif$qreld@wgnkq6_)tz+%*lmet7k8$-1n&h(5ib*='
 DB_PASS = 'q1IUilS14,747Qx'
 
 # Global name to project
-PROJECT_NAME = 'geroc'
-PROJECT_NAME_READABLE = 'geroc'
+PROJECT_NAME = 'badroc'
+PROJECT_NAME_READABLE = 'badroc'
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -166,7 +166,7 @@ MEDIA_VIDEO_LIBRARY_ROOT = 'video_library'
 
 # Admin tittle
 
-GRAPPELLI_ADMIN_TITLE = u'GEROC - Gerenciador de Rochas Petrolíferas'
+GRAPPELLI_ADMIN_TITLE = u'badroc - Gerenciador de Rochas Petrolíferas'
 
 
 # Dashboard
